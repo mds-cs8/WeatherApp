@@ -3,20 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Tajawal;
+  src: url("../public/fonts/Tajawal-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Tajawal;
+  src: url("../public/fonts/Tajawal-ExtraBold.ttf");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: Tajawal;
+  src: url("../public/fonts/Tajawal-Medium.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Tajawal;
+  src: url("../public/fonts/Tajawal-Light.ttf");
+  font-weight: lighter;
+}
 .App {
   text-align: center;
   width: 100%;
   min-height: 100vh;
   /* background: #381eac; */
-  /* background: rgb(233, 232, 232); */
+  background: rgb(233, 232, 232);
   /* background: rgb(25, 25, 25); */
-  background:  #3C3C3C;
+  /* background: #3c3c3c; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-@font-face {
-  font-family: ;
-  src: url();
+.button {
+  background: #767676 !important;
+  transition: all 0.5s ease !important;
+}
+.button:hover {
+  transform: scale(1.1) !important;
+  background: #5a5959 !important;
 }
